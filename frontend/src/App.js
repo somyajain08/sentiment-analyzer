@@ -1,6 +1,5 @@
 import SentimentAnalyzer1 from "./TwitterAnalyzer";
 import React from "react";
-// import './css_files/SentimentAnalyzer1.css';
 import './css_files/analyzer.css'; // Ensure this path is correct
 import { Route, Routes, Link } from "react-router-dom";
 function App() {
