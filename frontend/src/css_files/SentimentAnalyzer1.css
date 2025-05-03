@@ -1,0 +1,179 @@
+/* SentimentAnalyzer.css
+
+/* Background Image Overlay */
+/* .Twitter::before {
+    content: "";
+    background: url(https://beebom.com/wp-content/uploads/2023/08/This-image-represents-the-former-Twitter-logo-and-the-new-Twitter-logo-projected-via-two-different-smartphones.jpg?w=730&h=487&crop=1&quality=75)
+      no-repeat center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+  }
+  
+  /* Heading Styles */
+  /* .heading {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: black;
+  }
+  
+  /* Container Box */
+  /* #box1 {
+    margin: auto;
+    max-width: 970px;
+    text-align: center;
+    font-size: larger;
+    padding-top: 20px;
+    color: black;
+  } */
+  
+  /* #test {
+    border: 2px solid black;
+    display: flex;
+    box-sizing: border-box;
+    width: 1000px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 5px 8px 10px black;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+  }
+   */
+  /* .box2,
+  .box3 {
+    text-align: center;
+    width: 50%;
+  } */
+  
+  /* .box2 {
+    border-right: 2px dotted black;
+  } */
+  
+  /*  */
+
+
+/* SentimentAnalyzer.css */
+.Twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hashtag#f5f8fa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+ }
+ 
+ hashtag#box1 {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem 0;
+ }
+ 
+ .heading {
+  color: hashtag#1da1f2;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+ }
+ 
+ hashtag#test {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+ }
+ 
+ .box2 {
+  flex: 1;
+ }
+ 
+ .box2 h3 {
+  color: hashtag#14171a;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+ }
+ 
+ textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid hashtag#e1e8ed;
+  border-radius: 8px;
+  font-size: 1rem;
+  resize: none;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+ }
+ 
+ textarea:focus {
+  outline: none;
+  border-color: hashtag#1da1f2;
+  box-shadow: 0 0 0 2px rgba(29, 161, 242, 0.2);
+ }
+ 
+ textarea::placeholder {
+  color: hashtag#aab8c2;
+ }
+ 
+ .btn {
+  background-color: hashtag#1da1f2;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+ }
+ 
+ .btn:hover {
+  background-color: hashtag#1991da;
+ }
+ 
+ .box3 {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  background-color: hashtag#f5f8fa;
+  border-radius: 8px;
+  text-align: center;
+ }
+ 
+ .result {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: hashtag#14171a;
+  margin: 0;
+ }
+ 
+ /* Responsive design for smaller screens */
+ @media (min-width: 768px) {
+  hashtag#test {
+  flex-direction: row;
+  }
+  
+  .box2 {
+  width: 60%;
+  padding-right: 1.5rem;
+  }
+  
+  .box3 {
+  width: 40%;
+  margin-top: 2.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  }
+ }

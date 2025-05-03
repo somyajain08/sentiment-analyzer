@@ -1,25 +1,25 @@
-import SentimentAnalyzer from "./SentimentAnalyzer";
-import YTSentimentAnalyzer from "./YTSentimentAnalyzer";
-import AmazonSentimentAnalyzer from "./AmazonSentimentAnalyzer";
+import SentimentAnalyzer1 from "./TwitterAnalyzer";
 import React from "react";
+// import './css_files/SentimentAnalyzer1.css';
+import './css_files/analyzer.css'; // Ensure this path is correct
 import { Route, Routes, Link } from "react-router-dom";
 function App() {
   return (
     <div>
-        <li>
+        {/* <li>
           <Link to="/Twitter">Twitter Analysis</Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link to="/YouTube">YouTube Comment Analysis</Link>
         </li>
         <li>
           <Link to="/Amazon">Amazon Review Analysis</Link>
-        </li>
+        </li> */}
         <Routes>
-          <Route path="/" Component={SentimentAnalyzer}/>
-          <Route exact path="/Twitter" Component={SentimentAnalyzer}/>
-          <Route path="/YouTube" Component={YTSentimentAnalyzer}/>
-          <Route path="/Amazon" Component={AmazonSentimentAnalyzer}/>
+          <Route path="/" Component={SentimentAnalyzer1}/>
+          <Route exact path="/Twitter" Component={SentimentAnalyzer1}/>
+          {/* <Route path="/YouTube" Component={YTSentimentAnalyzer}/>
+          <Route path="/Amazon" Component={AmazonSentimentAnalyzer}/> */}
         </Routes>
       </div>
      

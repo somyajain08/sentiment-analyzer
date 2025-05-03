@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import axios from 'axios'
+import '.css_files/twitter.css';
 
 const SentimentAnalyzer=()=> {
     const [UserInput, setUserInput] = useState('');
